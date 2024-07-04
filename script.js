@@ -35,6 +35,7 @@ function conver_to_binary() {
   decInputField.value = decimal;
   binInputField.value = binary;
   document.getElementById("decimal_warning").innerHTML = "";
+  document.getElementById("binary_warning").innerHTML = "";
 }
 
 // Function to convert binary to decimal and display it in the text fields.
@@ -48,6 +49,7 @@ function conver_to_decimal(x) {
   let decimal = parseInt(binary, 2);
   decInputField.value = decimal;
   binInputField.value = binary;
+  document.getElementById("decimal_warning").innerHTML = "";
 }
 
 // Function to validate if all elements in the array are zeros or ones.
