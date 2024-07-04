@@ -19,7 +19,7 @@ binInputField.addEventListener("keyup", function () {
 
 // Event listener for the decimal input field.
 
-decInputField.addEventListener("keyup", () => {
+decInputField.addEventListener("input", () => {
   conver_to_binary();
 });
 
