@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(34, 33, 33);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+}
+.container {
+  background-color: rgb(51, 50, 50);
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 33, 33);
+  outline: none;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+#binary_warning,
+#decimal_warning {
+  color: red;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  height: 25px;
+}
