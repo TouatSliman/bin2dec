@@ -28,7 +28,8 @@ decInputField.addEventListener("input", () => {
 function conver_to_binary() {
   let decimal = parseInt(decInputField.value);
   if (isNaN(decimal)) {
-    document.getElementById("decimal_warning").innerHTML = "Empty input.";
+    document.getElementById("decimal_warning").innerHTML =
+      "Empty or invalid input !!";
     return;
   }
   let binary = (decimal >>> 0).toString(2);
